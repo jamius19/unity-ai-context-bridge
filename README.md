@@ -27,3 +27,9 @@ Needs the accompanying MCP server to work, see more at [https://github.com/jamiu
 1. Download the `.unitypackage` file for mthe releases page.
 2. In Unity go to **Assets > Import Package > Custom Package**
 3. Choose the downloaded unitypackage file to import it.
+
+<br>
+
+## Usage
+1. Open by going to **Tools > Unity AI Context Bridge** in Unity.
+2. Then you can drag and drop assets/gameobjects etc. into that window and it'll be available via the MCP server.
