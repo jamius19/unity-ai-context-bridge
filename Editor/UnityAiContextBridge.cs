@@ -453,9 +453,12 @@ namespace Editor
             {
                 _listener?.Stop();
                 _listener?.Close();
+
+                Debug.Log("Unity AI Context Bridge server stopped.");
             }
             catch
             {
+                Debug.LogWarning("Failed to cleanly stop Unity AI Context Bridge server.");
             }
 
             _listener = null;
