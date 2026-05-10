@@ -2,6 +2,28 @@ Unity AI Context Bridge editor extension feeds AI tools Unity GameObjects, asset
 
 Needs the accompanying MCP server to work, see more at [https://github.com/jamius19/unity-ai-context-bridge-mcp](https://github.com/jamius19/unity-ai-context-bridge-mcp)
 
+> [!IMPORTANT]  
+> Needs the accompanying MCP server to work, see more at [https://github.com/jamius19/unity-ai-context-bridge-mcp](https://github.com/jamius19/unity-ai-context-bridge-mcp)
+
 <br>
 
-If you prefer the `unitypackage`, it can be downloaded from the releases page at [https://github.com/jamius19/unity-ai-context-bridge/releases](https://github.com/jamius19/unity-ai-context-bridge/releases)
+## Installation
+
+### Install from Git (Recommended)
+
+1. Open Unity Package Manager.
+2. Select **Add package from git URL..**.
+3. Enter: `git@github.com:jamius19/unity-ai-context-bridge.git`
+
+### Install from tarball
+
+1. Download the `.tgz` package tarball from the releases page.
+2. Open Unity Package Manager.
+3. Select **Add package from tarball...**.
+4. Select the downloaded `.tgz` file.
+
+### Install via importing `unitypackage`
+
+1. Download the `.unitypackage` file for mthe releases page.
+2. In Unity go to **Assets > Import Package > Custom Package**
+3. Choose the downloaded unitypackage file to import it.
